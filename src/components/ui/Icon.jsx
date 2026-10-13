@@ -1,0 +1,2 @@
+const P={search:'M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zm9 16-4-4',heart:'M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z',user:'M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm-7 8a7 7 0 0 1 14 0',bag:'M6 8h12l-1 12H7L6 8zm3 0V6a3 3 0 0 1 6 0v2',glass:'M8 3h8l-1 7a3 3 0 0 1-6 0L8 3zm4 10v7m-3 0h6'}
+export default function Icon({n,filled}){return <svg width="18" height="18" viewBox="0 0 24 24" fill={filled?'currentColor':'none'} stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d={P[n]}/></svg>}

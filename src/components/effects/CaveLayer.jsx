@@ -1,0 +1,1 @@
+export default function CaveLayer(){return <div className="cave" aria-hidden="true" data-html2canvas-ignore><div className="cave-dark"/><div className="cave-torch"/><div className="cave-edge"/></div>}

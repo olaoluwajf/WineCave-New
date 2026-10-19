@@ -3,9 +3,12 @@ body {
 }
 
 h1,
-h2,
+h2 {
+    font-weight: 700
+}
+
 h3 {
-    font-weight: 400
+    font-weight: 600
 }
 
 .nav {
@@ -1721,6 +1724,19 @@ h3 {
     font-style: italic;
     font-size: clamp(3rem, 8vw, 8rem);
     line-height: .92
+}
+
+.delivery h2,
+.f-hero h2 {
+    font-family: var(--decorative-sans);
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: .01em
+}
+
+.delivery h2 em,
+.f-hero h2 em {
+    color: inherit
 }
 
 .f-cta {
